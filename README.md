@@ -4,3 +4,7 @@ We introduce a novel approach for safe control design based on the density funct
 <p align="center">
 <img src="figures/analytic_construction_rho.PNG" width="1000">
 </p>
+
+## Running the code
+
+We provide different example folders to showcase the robust safe navigation implemented using the control density function. Run the `main.m` file in each folder to execute the code.
