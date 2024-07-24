@@ -13,4 +13,4 @@ We provide safe navigation simulation results for nonlinear systems such as the 
 ## safe navigation
 Duffing oscillator | Double-gyre flow field
 :-: | :-:
-<img src='figures/duffing.png' width="500"> | <img src='figures/double_gyre.png' width="500">
+<img src='figures/duffing.png' width="500"> | <img src='figures/Double_gyre.png' width="500">
