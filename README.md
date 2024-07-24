@@ -10,12 +10,12 @@ We provide different example folders to showcase the robust safe navigation impl
 
 ## Examples
 We provide safe navigation simulation results for nonlinear systems such as the Duffing oscillator and double-gyre flow field. We also provide robust safe navigation simulation results for bicycle models with uncertainty in initial conditions and uncertainty in the dynamics, as shown below. 
-## Safe navigation
+### Safe navigation
 Duffing oscillator | Double-gyre flow field
 :-: | :-:
 <img src='figures/duffing.png' width="500"> | <img src='figures/Double_gyre.png' width="500">
 
-## Robust safe navigation for bicycle model
+### Robust safe navigation for bicycle model
 
 Bicycle model dynamics:
 
