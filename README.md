@@ -15,8 +15,26 @@ Duffing oscillator | Double-gyre flow field
 :-: | :-:
 <img src='figures/duffing.png' width="500"> | <img src='figures/Double_gyre.png' width="500">
 
-## Robust safe navigation for bicycle model in the position coordinates
+## Robust safe navigation for bicycle model
+
+Bicycle model dynamics:
+
+$\dot{x}_1 = v \cos(\theta + \Phi)$
+
+$\dot{x}_2 = v \sin(\theta + \Phi)$
+
+$\dot{\theta} = \frac{v}{L}\cos\Phi\tan\Theta$
+
+$\dot{\Theta} = \omega$
+
+$\dot{v} = a$
+
+where $\Phi = \tan^{-1}(\frac{l_r\tan\theta}{L})$
+
+Here, $x_1$ and $x_2$ are the position coordinates, $\theta$ is the heading angle, $\Theta$ is the steering angle, and $v$ is the linear velocity. The control inputs to the bicycle model include steering rate $\omega$ and linear acceleration $a$. The parameter $l_r$ represents the distance between the rear wheel and the center of mass, whereas the parameter $L$ represents the total length. 
+
+
 Uncertainty in initial conditions of position states | Uncertainty in the full state dynamics
 :-: | :-:
 <img src='figures/bicycle_uncertain_init_cond.png' width="500"> | <img src='figures/bicycle_uncertain_dyn.png' width="500">
-<img src='figures/bicycle_uncertain_init_cond.png' width="500"> | <img src='figures/bicycle_uncertain_dyn.png' width="500">
+<img src='figures/bicycle_uncertain_init_cond_remaining_states.png' width="500"> | <img src='figures/bicycle_uncertain_dyn_remaining_states.png' width="500">
