@@ -6,5 +6,11 @@ We introduce a novel approach for safe control design based on the density funct
 </p>
 
 ## Running the code
-
 We provide different example folders to showcase the robust safe navigation implemented using the control density function. Run the `main.m` file in each folder to execute the code.
+
+## Examples
+We provide safe navigation simulation results for nonlinear systems such as the Duffing oscillator and double-gyre flow field. We also provide robust safe navigation simulation results for bicycle models with uncertainty in initial conditions and uncertainty in the dynamics, as shown below. 
+## safe navigation
+Duffing oscillator | Double-gyre flow field
+:-: | :-:
+<img src='figures/duffing.png' width="500"> | <img src='figures/double_gyre.png' width="500">
