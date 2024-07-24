@@ -19,3 +19,4 @@ Duffing oscillator | Double-gyre flow field
 Uncertainty in initial conditions of position states | Uncertainty in the full state dynamics
 :-: | :-:
 <img src='figures/bicycle_uncertain_init_cond.png' width="500"> | <img src='figures/bicycle_uncertain_dyn.png' width="500">
+<img src='figures/bicycle_uncertain_init_cond.png' width="500"> | <img src='figures/bicycle_uncertain_dyn.png' width="500">
