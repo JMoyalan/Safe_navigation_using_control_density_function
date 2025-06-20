@@ -1,6 +1,17 @@
 ## Overview
 We introduce a novel approach for safe control design based on the density function. A control density function (CDF) is introduced to synthesize a safe controller for a nonlinear dynamic system. The CDF can be viewed as a dual to the control barrier function (CBF), a popular approach used for safe control design. While the safety certificate using the barrier function is based on the notion of invariance, the dual certificate involving the density function has a physical interpretation of occupancy. This occupancy-based physical interpretation is instrumental in providing an analytical construction of density function used for safe control synthesis. The safe control design problem is formulated using the density function as a quadratic programming (QP) problem. In contrast to the QP proposed for control synthesis using CBF, the proposed CDF-based QP can combine both the safety and convergence conditions to target state into single constraints. Further, we consider robustness against uncertainty in system dynamics and the initial condition and provide theoretical results for robust navigation using the CDF. Finally, we present simulation results for safe navigation with single integrator and double-gyre fluid flow-field examples, followed by robust navigation using the bicycle model and autonomous lane-keeping examples. Please take a look at the [paper](https://arxiv.org/abs/2407.05133) for high-level details of the framework.
 
+```
+@inproceedings{moyalan2024synthesizing,
+  title={Synthesizing controller for safe navigation using control density function},
+  author={Moyalan, Joseph and Narayanan, Sriram SKS and Zheng, Andrew and Vaidya, Umesh},
+  booktitle={2024 American Control Conference (ACC)},
+  pages={3397--3402},
+  year={2024},
+  organization={IEEE}
+}
+```
+
 <p align="center">
 <img src="figures/analytic_construction_rho.PNG" width="1000">
 </p>
